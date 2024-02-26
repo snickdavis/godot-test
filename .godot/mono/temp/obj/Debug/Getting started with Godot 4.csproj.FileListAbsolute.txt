@@ -15,3 +15,4 @@ C:\Users\snick\Documents\Godot Projects\2d-project-start\.godot\mono\temp\obj\De
 C:\Users\snick\Documents\Godot Projects\2d-project-start\.godot\mono\temp\obj\Debug\Getting started with Godot 4.pdb
 C:\Users\snick\Documents\Godot Projects\2d-project-start\.godot\mono\temp\obj\Debug\Getting started with Godot 4.genruntimeconfig.cache
 C:\Users\snick\Documents\Godot Projects\2d-project-start\.godot\mono\temp\obj\Debug\ref\Getting started with Godot 4.dll
+C:\Users\snick\Documents\Godot Projects\2d-project-start\.godot\mono\temp\obj\Debug\Getting started with Godot 4.sourcelink.json

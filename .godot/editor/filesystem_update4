@@ -2,7 +2,13 @@ res://player.tscn
 res://characters/happy_boo/happy_boo.tscn
 res://survivors_game.tscn
 res://slime.tscn
+res://gun.tscn
+res://characters/slime/mob.tscn
+res://bullet.tscn
+res://bullet.cs
 res://characters/happy_boo/happy_boo.cs
 res://characters/slime/slime.cs
+res://gun.cs
 res://mob.cs
 res://player.cs
+res://SurvivorsGame.cs

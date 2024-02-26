@@ -3,7 +3,7 @@ using Godot;
 public partial class slime : Node2D, Slime {
     public void PlayHurtAnimation() {
         GetNode<AnimationPlayer>("AnimationPlayer").Play("hurt");        
-        GetNode<AnimationPlayer>("AnimationPlayer").Play("walk");
+        GetNode<AnimationPlayer>("AnimationPlayer").Queue("walk");
     }
 
     public void PlayWalkAnimation() {

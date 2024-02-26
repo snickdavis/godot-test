@@ -1,15 +1,57 @@
-[gd_scene load_steps=4 format=3 uid="uid://4eskel76pq6k"]
+[gd_scene load_steps=8 format=3 uid="uid://4eskel76pq6k"]
 
 [ext_resource type="Script" path="res://player.cs" id="1_a6v3m"]
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_roadp"]
+[ext_resource type="PackedScene" uid="uid://v47x7f6gb0sj" path="res://gun.tscn" id="3_vf0ol"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7qaex"]
 radius = 37.2156
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gag8h"]
+radius = 51.0098
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t1ibw"]
+bg_color = Color(0.152941, 0.168627, 0.188235, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t7o3n"]
+bg_color = Color(0.388235, 0.8, 0.372549, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
 
 [node name="player_character" type="CharacterBody2D"]
 script = ExtResource("1_a6v3m")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_roadp")]
+position = Vector2(0, 50)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_7qaex")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="gun" parent="." instance=ExtResource("3_vf0ol")]
+
+[node name="hitbox" type="Area2D" parent="."]
+unique_name_in_owner = true
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+shape = SubResource("CircleShape2D_gag8h")
+
+[node name="player_character_health" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+offset_left = -74.0
+offset_top = -86.0
+offset_right = 74.0
+offset_bottom = -59.0
+theme_override_styles/background = SubResource("StyleBoxFlat_t1ibw")
+theme_override_styles/fill = SubResource("StyleBoxFlat_t7o3n")
+value = 100.0
+show_percentage = false
