@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "YaD+JhTCjph1Ft6Ry6id9cgQwT0FasJY91jkaVsf5L9CndGbt/siBfqCl87QdXTF0xd8XHHZJu41c9FIbHo3Nw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\snick\\Documents\\Godot Projects\\2d-project-start\\Getting started with Godot 4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\snick\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\snick\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\snick\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512",
+    "C:\\Users\\snick\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\snick\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\snick\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

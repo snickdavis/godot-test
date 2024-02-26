@@ -1,0 +1,8 @@
+res://player.tscn
+res://characters/happy_boo/happy_boo.tscn
+res://survivors_game.tscn
+res://slime.tscn
+res://characters/happy_boo/happy_boo.cs
+res://characters/slime/slime.cs
+res://mob.cs
+res://player.cs
