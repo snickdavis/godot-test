@@ -1,2 +1,0 @@
-﻿60760
-C:/Users/snick/Documents/Godot/Godot_v4.2.1-stable_mono_win64.exe
